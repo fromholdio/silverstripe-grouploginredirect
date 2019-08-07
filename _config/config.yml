@@ -4,8 +4,8 @@ Name: fromholdio-grouploginredirect
 
 SilverStripe\Security\Group:
   extensions:
-    - Fromholdio\Affinity\AwardSubmission\Extensions\LoginGroupExtension
+    - Fromholdio\GroupLoginRedirect\Extensions\LoginGroupExtension
 
 SilverStripe\Core\Injector\Injector:
   SilverStripe\Security\MemberAuthenticator\LoginHandler:
-    class: Fromholdio\Affinity\AwardSubmission\Security\GroupLoginHandler
+    class: Fromholdio\GroupLoginRedirect\Security\GroupLoginHandler
