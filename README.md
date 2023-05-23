@@ -4,7 +4,7 @@ A small SilverStripe module that allows assigning a page to a security group, fo
 
 ## Requirements
 
-* [silverstripe-cms](https://github.com/silverstripe/silverstripe-cms) ^4
+* [silverstripe-cms](https://github.com/silverstripe/silverstripe-cms) ^4 and ^5
 
 ## Installation
 
