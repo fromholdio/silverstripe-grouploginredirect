@@ -1,25 +1,32 @@
 {
-	"name": "fromholdio/silverstripe-grouploginredirect",
-	"type": "silverstripe-vendormodule",
-	"description": "A small SilverStripe module that allows assigning a page to a security group, forcing redirection to that page upon login for users in that group.",
-	"license": "BSD-3-Clause",
-	"keywords": ["silverstripe", "login", "groups", "redirect"],
-	"homepage": "https://github.com/fromholdio/silverstripe-grouploginredirect",
-	"support": {
-		"issues": "https://github.com/fromholdio/silverstripe-grouploginredirect/issues"
-	},
-	"authors": [{
-		"name": "Luke Fromhold",
-		"homepage": "https://fromhold.io"
-	}],
-	"require": {
-        "silverstripe/framework": "~4.2 || ~5.0"
-	},
-	"autoload": {
-		"psr-4": {
-			"Fromholdio\\GroupLoginRedirect\\": "src/"
-		}
-	},
-	"prefer-stable": true,
-	"minimum-stability": "dev"
+    "name": "fromholdio/silverstripe-grouploginredirect",
+    "type": "silverstripe-vendormodule",
+    "description": "A small SilverStripe module that allows assigning a page to a security group, forcing redirection to that page upon login for users in that group.",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "login",
+        "groups",
+        "redirect"
+    ],
+    "homepage": "https://github.com/fromholdio/silverstripe-grouploginredirect",
+    "support": {
+        "issues": "https://github.com/fromholdio/silverstripe-grouploginredirect/issues"
+    },
+    "authors": [
+        {
+            "name": "Luke Fromhold",
+            "homepage": "https://fromhold.io"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fromholdio\\GroupLoginRedirect\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }

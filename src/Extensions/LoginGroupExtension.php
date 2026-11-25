@@ -3,17 +3,17 @@
 namespace Fromholdio\GroupLoginRedirect\Extensions;
 
 use SilverStripe\CMS\Model\SiteTree;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TreeDropdownField;
-use SilverStripe\ORM\DataExtension;
 
-class LoginGroupExtension extends DataExtension
+class LoginGroupExtension extends Extension
 {
-    private static $has_one = [
+    private static array $has_one = [
         'LoginTargetPage' => SiteTree::class
     ];
 
-    public function updateCMSFields(FieldList $fields)
+    public function updateCMSFields(FieldList $fields): void
     {
         $fields->removeByName('LoginTargetPageID');
         $targetPageField = TreeDropdownField::create(
